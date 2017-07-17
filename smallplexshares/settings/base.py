@@ -25,6 +25,8 @@ BASE_DIR = os.path.dirname(PROJECT_DIR)
 
 # Application definition
 
+ALLOWED_HOSTS = ['*']
+
 INSTALLED_APPS = [
     'home',
     'search',
